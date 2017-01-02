@@ -1,0 +1,6 @@
+[submodule "basic_cross_platform/deps/djinni"]
+	path = basic_cross_platform/deps/djinni
+	url = https://github.com/dropbox/djinni.git
+[submodule "basic_cross_platform/deps/gyp"]
+	path = basic_cross_platform/deps/gyp
+	url = https://chromium.googlesource.com/external/gyp.git

@@ -1,0 +1,8 @@
+hello_world = interface +c {
+
+    # return an instance of our C++ object with the methods we outline in this IDL file
+    static create(): hello_world;
+
+    # function taht returns a string
+    get_hello_world(): string;
+}
