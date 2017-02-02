@@ -16,6 +16,7 @@ GypAndroid.mk: libhelloworld.gyp ./deps/djinni/support-lib/support_lib.gyp hello
 
 # this target implicitly depends on GypAndroid.mk since gradle will try to make it
 android: GypAndroid.mk
-	cd android_project/HelloWorld/ && ./gradlew app:assembleDebug
+	cd android_project/ && ./gradlew app:assembleDebug
+	#cd android_project/HelloWorld/ && ./gradlew app:assembleDebug
 	@echo "Apks produced at:"
 	@python deps/djinni/example/glob.py ./ '*.apk'

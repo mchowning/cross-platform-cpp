@@ -4,3 +4,9 @@
 [submodule "basic_cross_platform/deps/gyp"]
 	path = basic_cross_platform/deps/gyp
 	url = https://chromium.googlesource.com/external/gyp.git
+[submodule "djinni_test/deps/djinni"]
+	path = djinni_test/deps/djinni
+	url = http://github.com/dropbox/djinni.git
+[submodule "djinni_test/deps/gyp"]
+	path = djinni_test/deps/gyp
+	url = http://chromium.googlesource.com/external/gyp.git

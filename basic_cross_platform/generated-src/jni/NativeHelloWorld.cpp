@@ -6,12 +6,12 @@
 
 namespace djinni_generated {
 
-NativeHelloWorld::NativeHelloWorld() : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld>("com/mycompany/helloworld/HelloWorld$CppProxy") {}
+NativeHelloWorld::NativeHelloWorld() : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld>("com/chowning/helloworld/HelloWorld$CppProxy") {}
 
 NativeHelloWorld::~NativeHelloWorld() = default;
 
 
-CJNIEXPORT void JNICALL Java_com_mycompany_helloworld_HelloWorld_00024CppProxy_nativeDestroy(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
+CJNIEXPORT void JNICALL Java_com_chowning_helloworld_HelloWorld_00024CppProxy_nativeDestroy(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
 {
     try {
         DJINNI_FUNCTION_PROLOGUE1(jniEnv, nativeRef);
@@ -19,7 +19,7 @@ CJNIEXPORT void JNICALL Java_com_mycompany_helloworld_HelloWorld_00024CppProxy_n
     } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, )
 }
 
-CJNIEXPORT jobject JNICALL Java_com_mycompany_helloworld_HelloWorld_create(JNIEnv* jniEnv, jobject /*this*/)
+CJNIEXPORT jobject JNICALL Java_com_chowning_helloworld_HelloWorld_create(JNIEnv* jniEnv, jobject /*this*/)
 {
     try {
         DJINNI_FUNCTION_PROLOGUE0(jniEnv);
@@ -28,7 +28,7 @@ CJNIEXPORT jobject JNICALL Java_com_mycompany_helloworld_HelloWorld_create(JNIEn
     } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, 0 /* value doesn't matter */)
 }
 
-CJNIEXPORT jstring JNICALL Java_com_mycompany_helloworld_HelloWorld_00024CppProxy_native_1getHelloWorld(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
+CJNIEXPORT jstring JNICALL Java_com_chowning_helloworld_HelloWorld_00024CppProxy_native_1getHelloWorld(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef)
 {
     try {
         DJINNI_FUNCTION_PROLOGUE1(jniEnv, nativeRef);
